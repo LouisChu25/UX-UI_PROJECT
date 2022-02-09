@@ -8,6 +8,8 @@
     <title>Formations Coding</title>
 </head>
 <body>
-    
+    <header>
+        
+    </header>
 </body>
 </html>
