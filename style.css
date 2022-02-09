@@ -11,3 +11,45 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.container1_header h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.container1_header p {
+    color: white;
+    font-size: 1.5em;
+    width: 40%;
+}
+
+.button-container {
+    display: flex;
+    gap: 40px;
+}
+
+.button-formation {
+    border: 1px solid #EF7D00;
+    padding: 10px 20px;
+    background-color: #EF7D00;
+}
+
+.button-formation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.button-decouvrir {
+    border: 1px solid #EF7D00;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.button-decouvrir a {
+    color: #EF7D00;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
