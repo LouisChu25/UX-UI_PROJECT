@@ -31,3 +31,12 @@ footer{
     margin-top: 20px;
     align-items: center;
 }
+
+.slider{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-student{
+    display: flex;
+}
