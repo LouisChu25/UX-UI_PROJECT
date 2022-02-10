@@ -18,7 +18,7 @@
             </p>
             <div class="button-container">
                 <div class="button-formation">
-                    <a href="#">Mini formations</a>
+                    <a href="#mini-formations">Mini formations</a>
                 </div>
                 <div class="button-decouvrir">
                     <a href="https://www.iim.fr">Découvrir l'IIM</a>
@@ -45,7 +45,7 @@
    
     
     <section>
-<h2 class="title_section">NOS PROGRAMMES</h2>
+<h2 class="title_section" id="mini-formations">NOS PROGRAMMES</h2>
     <div class="html">
         
             <div class="contenthtml">
