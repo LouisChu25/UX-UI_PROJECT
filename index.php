@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  
     <title>Formations Coding</title>
 </head>
 <body>
@@ -89,7 +91,25 @@
         </div>
     </div>
 </section>
+<h2 class="title_section_avis" id="mini-formations">Avis étudiant(e)</h2>
+<div class="container">
 
+	<div class="slider-container">
+
+		<div class="review-bar">
+
+			<i class="fas fa-chevron-circle-left slider-controls" id="prevBtn"></i>
+
+			<div class="reviewContent">
+				<h4></h4>
+				<div class="rating-container"></div>
+				<p></p>
+			</div>
+			<i class="fas fa-chevron-circle-right slider-controls" id="nextBtn"></i>
+
+		</div>
+	</div>
+</div>
     <footer>
         <div class="flex-logo">
             <img src="img/youtube-logo-24.png" alt="youtube">
@@ -104,5 +124,6 @@
         <p>Admissions : 01 81 00 30 33</p>
         <p>admissions@iim.fr</p>
     </footer>
+<script src="script.js"></script>
 </body>
 </html>
