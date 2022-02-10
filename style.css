@@ -332,4 +332,20 @@ h2{
 }
 
 
+@media (max-width: 950px) {
+    header {
+        flex-wrap: wrap;
+        height: 200vh;
+    }
+    .container1_header {
+        width: 80%;
+    }
+    .container1_header p {
+        width: 100%;
+    }
+}
+
+
+
+
 
