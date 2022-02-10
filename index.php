@@ -9,7 +9,39 @@
 </head>
 <body>
     <header>
-        
+        <div class="container1_header">
+            <img src="img/logo-IIM.png" alt="Logo IIM" class="logo">
+            <h1>DEVENEZ UN <br> DEVELOPPEUR</h1>
+            <p>Création de site web, Programmation de 
+                jeux vidéos, Découverte de nouvelles 
+                technologies
+            </p>
+            <div class="button-container">
+                <div class="button-formation">
+                    <a href="#">Mini formations</a>
+                </div>
+                <div class="button-decouvrir">
+                    <a href="iim.fr">Découvrir l'IIM</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="" method="POST">
+                <input type="text" placeholder="Nom">
+                <input type="text" placeholder="Prénom">
+                <input type="text" placeholder="Adresse mail">
+                <input type="text" placeholder="Numéro de téléphone">
+                <select name="formations" id="">
+                    <option value="">Choisir une formation</option>
+                    <option value="htmlcss">Web Coding Html / CSS</option>
+                    <option value="">Pyhton Algorithmie</option>
+                    <option value="">C# Unity</option>
+                </select>
+            </form>
+            <div class="button-form">
+                <a href="#">S'INSCRIRE</a>
+            </div>
+        </div>
     </header>
 
     <section class="slider">
