@@ -5,24 +5,40 @@
     font-family: sans-serif;
 }
 
+/* HEADER */
 
 header {
     height: 100vh;
     background: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
 }
 
-<<<<<<< HEAD
+/* HEADER TITLE PART */
+
+.container1_header {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
 .container1_header h1 {
     color: white;
     font-size: 3em;
+    margin-bottom: 50px;
 }
 
 .container1_header p {
     color: white;
     font-size: 1.5em;
-    width: 40%;
+    width: 60%;
+    margin-bottom: 50px;
 }
 
 .button-container {
@@ -55,7 +71,52 @@ header {
     font-weight: bold;
     font-size: 1.5em;
 }
-=======
+
+/* HEADER FORM PART */
+
+
+.form-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4em;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 500px;
+    margin-top: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.button-form {
+    border: 1px solid #EF7D00;
+    padding: 10px 20px;
+    background-color: #EF7D00;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-form a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+form input {
+    width: 250px;
+    height: 30px;
+}
+
+form select {
+    width: 250px;
+    height: 30px;
+}
+
+/* FOOTER */
+
 footer{
     height: 250px;
     background-color: #ED7E00;
@@ -74,4 +135,4 @@ footer{
     margin-top: 20px;
     align-items: center;
 }
->>>>>>> ed5d50b35880e529d60d5aa95687a930962ed908
+
