@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <div class="container1_header">
+        <div class="container1_header" id="header">
             <img src="img/logo-IIM.png" alt="Logo IIM" class="logo">
             <h1>DEVENEZ UN <br> DEVELOPPEUR</h1>
             <p>Création de site web, Programmation de 
@@ -54,7 +54,7 @@
     
     <h3 class="h3_section">HTML / CSS</h3>
     <p>Si vous ne connaissez pas HTML et CSS, apprenez les base de ces languages de programmation essentiels a tout developpeur. Vous serez capable de créer les différents éléments de votre page web tout en y ajoutant du style.</p>
-    <button class="button_section">S'inscrire</button>
+    <a href="#header"><button class="button_section">S'inscrire</button></a>
     <div class="barre"></div>   
 </div>
     <div class="imghtml">
@@ -69,7 +69,7 @@
     <h3 class="h3_section">C / C++ / C#</h3>
     <p>Débutant ou n'ayant pas encore touché aux langage C / C++ / C#, grâce à cette formation vous comprendrez et maitrisez les principes de base de la programmation dans ces trois langages.
 </p>
-<button class="button_section">S'inscrire</button>
+<a href="#header"><button class="button_section">S'inscrire</button></a>
     <div class="barre"></div>   
 </div>
     <div class="imgc">
@@ -83,7 +83,7 @@
     
     <h3 class="h3_section">PHP / MYSQL</h3>
     <p>Apprenez à utiliser le PHP ou un framework PHP en suivant l'une de nos formations. Avec SQL vous serez capable de vous connecter à une base de données afin de les lier à vos sites web.</p>
-    <button class="button_section">S'inscrire</button>
+    <a href="#header"><button class="button_section">S'inscrire</button></a>
     <div class="barre"></div>   
 </div>
     <div class="imgphp">
@@ -112,11 +112,11 @@
 </div>
     <footer>
         <div class="flex-logo">
-            <img src="img/youtube-logo-24.png" alt="youtube">
-            <img src="img/linkedin-logo-24.png" alt="linkedin">
-            <img src="img/twitter-logo-24.png" alt="twitter">
-            <img src="img/facebook-logo-24.png" alt="facebook">
-            <img src="img/instagram-logo-24.png" alt="instagram">
+            <a href="https://www.youtube.com/c/IIMfr"><img src="img/youtube-logo-24.png" alt="youtube"></a>
+            <a href="https://www.linkedin.com/school/iim---institut-de-l'internet-et-du-multim%C3%A9dia/"><img src="img/linkedin-logo-24.png" alt="linkedin"></a>
+            <a href="https://twitter.com/IIMparis?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="img/twitter-logo-24.png" alt="twitter"></a>
+            <a href="https://fr-fr.facebook.com/Institut.Internet.Multimedia/"><img src="img/facebook-logo-24.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/iim_paris/?hl=fr"><img src="img/instagram-logo-24.png" alt="instagram"></a>
         </div>
         <h3>IIM Digital School Paris</h3>
         <p>www.iim.fr</p>
