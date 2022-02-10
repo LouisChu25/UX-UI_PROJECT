@@ -21,7 +21,7 @@
                     <a href="#">Mini formations</a>
                 </div>
                 <div class="button-decouvrir">
-                    <a href="iim.fr">Découvrir l'IIM</a>
+                    <a href="https://www.iim.fr">Découvrir l'IIM</a>
                 </div>
             </div>
         </div>
