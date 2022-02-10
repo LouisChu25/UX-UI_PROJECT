@@ -92,11 +92,11 @@
 
     <footer>
         <div class="flex-logo">
-            <img src="img/youtube-logo-24.png" alt="youtube">
-            <img src="img/linkedin-logo-24.png" alt="linkedin">
-            <img src="img/twitter-logo-24.png" alt="twitter">
-            <img src="img/facebook-logo-24.png" alt="facebook">
-            <img src="img/instagram-logo-24.png" alt="instagram">
+            <a href="https://www.youtube.com/c/IIMfr"><img src="img/youtube-logo-24.png" alt="youtube"></a>
+            <a href="https://www.linkedin.com/school/iim---institut-de-l'internet-et-du-multim%C3%A9dia/"><img src="img/linkedin-logo-24.png" alt="linkedin"></a>
+            <a href="https://twitter.com/IIMparis?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="img/twitter-logo-24.png" alt="twitter"></a>
+            <a href="https://fr-fr.facebook.com/Institut.Internet.Multimedia/"><img src="img/facebook-logo-24.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/iim_paris/?hl=fr"><img src="img/instagram-logo-24.png" alt="instagram"></a>
         </div>
         <h3>IIM Digital School Paris</h3>
         <p>www.iim.fr</p>
