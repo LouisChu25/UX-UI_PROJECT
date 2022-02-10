@@ -41,6 +41,55 @@
             </form>
         </div>
     </header>
+    
+    <section>
+<h2 class="h2">NOS PROGRAMMES</h2>
+    <div class="html">
+        
+            <div class="contenthtml">
+    
+    <h3 class="h3">HTML / CSS</h3>
+    <p>Si vous ne connaissez pas HTML et CSS, apprenez les base de ces languages de programmation essentiels a tout developpeur. Vous serez capable de créer les différents éléments de votre page web tout en y ajoutant du style.</p>
+    <button class="button">S'inscrire</button>
+    <div class="barre"></div>   
+</div>
+    <div class="imghtml">
+            <img src="img/Image 2.png" alt="">
+        </div>
+    </div>
+
+    <div class="html">
+        
+            <div class="contenthtml">
+    
+    <h3 class="h3">C / C++ / C#</h3>
+    <p>Débutant ou n'ayant pas encore touché aux langage C / C++ / C#, grâce à cette formation vous comprendrez et maitrisez les principes de base de la programmation dans ces trois langages.
+</p>
+<button class="button">S'inscrire</button>
+    <div class="barre"></div>   
+</div>
+    <div class="imgc">
+            <img src="img/1_sz9n_vb48iaY9vuzIgqJqQ.png" alt="">
+        </div>
+    </div>
+
+    <div class="html">
+        
+            <div class="contenthtml">
+    
+    <h3 class="h3">PHP / MYSQL</h3>
+    <p>Apprenez à utiliser le PHP ou un framework PHP en suivant l'une de nos formations. Avec SQL vous serez capable de vous connecter à une base de données afin de les lier à vos sites web.</p>
+    <button class="button">S'inscrire</button>
+    <div class="barre"></div>   
+</div>
+    <div class="imgphp">
+            <img src="img/php-mysql-development_IDEALCONCEPTION.png" alt="">
+        </div>
+    </div>
+</section>
+    
+    
+    
 
     <section class="slider">
         <h2>Nos retours</h2>
