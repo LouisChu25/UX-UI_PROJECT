@@ -370,6 +370,65 @@ h2{
     }
 }
 
+@media all and (max-width: 1700px) and (min-width: 1400px) {
+    .form-container {
+        border: 1px solid #EF7D00;
+        border-radius: 10px;
+        padding: 4em;
+        background-color: rgba(255, 255, 255, 0.4);
+        height: 600px;
+        margin-top: 100px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+    }
+    
+    
+    .button-form {
+        border: 1px solid #EF7D00;
+        padding: 15px 25px;
+        background-color: #EF7D00;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .button-form a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+    form input {
+        width: 300px;
+        height: 30px;
+        border: 1px solid #ED7E00;
+    }
+    
+    form select {
+        width: 300px;
+        height: 30px;
+        border: 1px solid #ED7E00;
+    }
+    
+    form :nth-child(6) {
+        border: 1px solid #EF7D00;
+        padding: 10px 20px;
+        background-color: #EF7D00;
+        text-align: center;
+        margin-top: 30px;
+        height: 40px;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+
+
+
 
 
 
