@@ -37,10 +37,8 @@
                     <option value="">Pyhton Algorithmie</option>
                     <option value="">C# Unity</option>
                 </select>
+                <input type="submit" value="S'INSCRIRE">
             </form>
-            <div class="button-form">
-                <a href="#">S'INSCRIRE</a>
-            </div>
         </div>
     </header>
 

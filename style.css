@@ -76,7 +76,7 @@ header {
 
 
 .form-container {
-    border: 1px solid black;
+    border: 1px solid #EF7D00;
     border-radius: 10px;
     padding: 4em;
     background-color: rgba(255, 255, 255, 0.4);
@@ -108,11 +108,25 @@ form {
 form input {
     width: 250px;
     height: 30px;
+    border: 1px solid #ED7E00;
 }
 
 form select {
     width: 250px;
     height: 30px;
+    border: 1px solid #ED7E00;
+}
+
+form :nth-child(6) {
+    border: 1px solid #EF7D00;
+    padding: 10px 20px;
+    background-color: #EF7D00;
+    text-align: center;
+    margin-top: 30px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 /* FOOTER */
