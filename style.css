@@ -370,7 +370,7 @@ h2{
     }
 }
 
-@media all and (max-width: 1700px) and (min-width: 1400px) {
+@media all and (max-width: 1600px) and (min-width: 1400px) {
     .form-container {
         border: 1px solid #EF7D00;
         border-radius: 10px;
@@ -427,7 +427,7 @@ h2{
 }
 
 
-@media all and (max-width: 2000px) and (min-width: 1700px) {
+@media all and (max-width: 2000px) and (min-width: 1600px) {
 
     header {
         gap: 0px;
