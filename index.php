@@ -41,17 +41,54 @@
             </form>
         </div>
     </header>
-
-    <section class="slider">
-        <h2>Nos retours</h2>
-        <div class="flex-student">
-        <img class="arrow" src="img/chevron-left-regular-24.png" alt="arrow-left">
-        <img class="student-pictures" src="img/cpf-etudiants.png" alt="étudiant">
-        <p>Superbe formation, les formateurs sont à l'écoute et reste à disposition même en dehors des heures de formations. J'ai pu développer mon propre site avec ce que j'ai appris. Je vous invite à le visiter www.site.fr</p>
-        <img class="arrow" src="img/chevron-right-regular-24.png" alt="arrow-right">
+    
+   
+    
+    <section>
+<h2 class="title_section">NOS PROGRAMMES</h2>
+    <div class="html">
+        
+            <div class="contenthtml">
+    
+    <h3 class="h3_section">HTML / CSS</h3>
+    <p>Si vous ne connaissez pas HTML et CSS, apprenez les base de ces languages de programmation essentiels a tout developpeur. Vous serez capable de créer les différents éléments de votre page web tout en y ajoutant du style.</p>
+    <button class="button_section">S'inscrire</button>
+    <div class="barre"></div>   
+</div>
+    <div class="imghtml">
+            <img src="img/Image 2.png" alt="">
         </div>
-        <button class="button-slider">VOIR LES PROJETS</button>
-    </section>
+    </div>
+
+    <div class="html">
+        
+            <div class="contenthtml">
+    
+    <h3 class="h3_section">C / C++ / C#</h3>
+    <p>Débutant ou n'ayant pas encore touché aux langage C / C++ / C#, grâce à cette formation vous comprendrez et maitrisez les principes de base de la programmation dans ces trois langages.
+</p>
+<button class="button_section">S'inscrire</button>
+    <div class="barre"></div>   
+</div>
+    <div class="imgc">
+            <img src="img/1_sz9n_vb48iaY9vuzIgqJqQ.png" alt="">
+        </div>
+    </div>
+
+    <div class="html">
+        
+            <div class="contenthtml">
+    
+    <h3 class="h3_section">PHP / MYSQL</h3>
+    <p>Apprenez à utiliser le PHP ou un framework PHP en suivant l'une de nos formations. Avec SQL vous serez capable de vous connecter à une base de données afin de les lier à vos sites web.</p>
+    <button class="button_section">S'inscrire</button>
+    <div class="barre"></div>   
+</div>
+    <div class="imgphp">
+            <img src="img/php-mysql-development_IDEALCONCEPTION.png" alt="">
+        </div>
+    </div>
+</section>
 
     <footer>
         <div class="flex-logo">
