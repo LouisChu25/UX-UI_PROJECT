@@ -47,12 +47,12 @@
     <section class="slider">
         <h2>Nos retours</h2>
         <div class="flex-student">
-        <img src="img/chevron-left-regular-24.png" alt="arrow-left">
-        <img src="img/cpf-etudiants.png" alt="étudiant">
+        <img class="arrow" src="img/chevron-left-regular-24.png" alt="arrow-left">
+        <img class="student-pictures" src="img/cpf-etudiants.png" alt="étudiant">
         <p>Superbe formation, les formateurs sont à l'écoute et reste à disposition même en dehors des heures de formations. J'ai pu développer mon propre site avec ce que j'ai appris. Je vous invite à le visiter www.site.fr</p>
-        <img src="img/chevron-right-regular-24.png" alt="arrow-right">
+        <img class="arrow" src="img/chevron-right-regular-24.png" alt="arrow-right">
         </div>
-        <button>Voir les projets</button>
+        <button class="button-slider">VOIR LES PROJETS</button>
     </section>
 
     <footer>

@@ -140,11 +140,43 @@ footer{
 .slider{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.slider p{
+    
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    color: #ED7E00;
+    margin-top: 20px;
 }
 
 .flex-student{
     display: flex;
+    width: 80%;
+    align-items: center;
 }
 
+.arrow{
+    width: 60px;
+    height: 60px;
+}
 
+.button-slider{
+    border: 1px solid #EF7D00;
+    padding: 10px 20px;
+    background-color: #EF7D00;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.student-pictures{
+    padding-left: 50px;
+}
 
