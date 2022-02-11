@@ -27,20 +27,37 @@
         </div>
         <div class="form-container">
             <form action="" method="POST">
-                <input type="text" placeholder="Nom">
-                <input type="text" placeholder="Prénom">
-                <input type="text" placeholder="Adresse mail">
-                <input type="text" placeholder="Numéro de téléphone">
-                <select name="formations" id="">
-                    <option value="">Choisir une formation</option>
-                    <option value="htmlcss">Web Coding Html / CSS</option>
-                    <option value="">Pyhton Algorithmie</option>
-                    <option value="">C# Unity</option>
+                <input type="text" placeholder="Nom" name="nom">
+                <input type="text" placeholder="Prénom" name="prenom">
+                <input type="text" placeholder="Adresse mail" name="mail">
+                <input type="text" placeholder="Numéro de téléphone" name="num">
+                <select name="formation">
+                    <option value="" disabled selected>Choisir une formation</option>
+                    <option value="Web Coding Html / CSS">Web Coding Html / CSS</option>
+                    <option value="Python Algoritmhie">Pyhton Algorithmie</option>
+                    <option value="C# Unity">C# Unity</option>
                 </select>
                 <input type="submit" value="S'INSCRIRE">
             </form>
         </div>
     </header>
+
+    <?php
+
+require 'vendor/autoload.php';
+use \Mailjet\Resources;
+$mj = new \Mailjet\Client(getenv('MJ_APIKEY_PUBLIC'), getenv('MJ_APIKEY_PRIVATE'),true,['version' => 'v3']);
+$body = [
+  'IsExcludedFromCampaigns' => "true",
+  'Name' => $_POST['nom'],
+  'Prenom' => $_POST['prenom'],
+  'Email' => $_POST['mail'],
+  'Numero' => $_POST['num'],
+  'Formation' => $_POST['formation']
+];
+$response = $mj->post(Resources::$Contact, ['body' => $body]);
+$response->success() && var_dump($response->getData());
+?>
     
    
     
