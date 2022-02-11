@@ -59,7 +59,7 @@
 
 require 'vendor/autoload.php';
 use \Mailjet\Resources;
-$mj = new \Mailjet\Client(getenv('MJ_APIKEY_PUBLIC'), getenv('MJ_APIKEY_PRIVATE'),true,['version' => 'v3']);
+$mj = new \Mailjet\Client(getenv('2df14aed99dc2e5543b7e12e46a99d25'), getenv('f147ea008054fa7a08333bc0d5dd5c22'),true,['version' => 'v3']);
 $body = [
   'IsExcludedFromCampaigns' => "true",
   'Name' => $_POST['nom'],
