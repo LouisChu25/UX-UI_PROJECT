@@ -36,25 +36,26 @@ let philip = new Customer(
 
 
 let fakeDataReturn = [
-	new Review(
-		philip.name,
-		"Formation que j'ai beaucoup apprécié, elle m'a permis de réaliser mon portfolio et de le mettre en ligne.",
-		philip.img,
-		
-	),
-	new Review(
-		jennifer.name,
-		"Travaillant dans la photographie, j'avais besoin d'un site pour mettre en avant mon travail, cette formation m'a beaucoup aidé",
-		jennifer.img,
-		
-	),
-	new Review(
-		jackson.name,
-		"Etant un grand fan de jeux vidéos, j'ai toujours voulu pouvoir en créer un, j'ai beaucoup aimé la formation",
-		jackson.img,
-		
-	)
+    new Review(
+        philip.name,
+        "Formation que j'ai beaucoup apprécié, elle m'a permis de réaliser mon portfolio et de le mettre en ligne.",
+        philip.img,
+
+    ),
+    new Review(
+        jennifer.name,
+        "Travaillant dans la photographie, j'avais besoin d'un site pour mettre en avant mon travail, cette formation m'a beaucoup aidé",
+        jennifer.img,
+
+    ),
+    new Review(
+        jackson.name,
+        "Etant un grand fan de jeux vidéos, j'ai toujours voulu pouvoir en créer un, j'ai beaucoup aimé la formation",
+        jackson.img,
+
+    )
 ];
+
 
 //
 function addReview(customer, rating, review) {
