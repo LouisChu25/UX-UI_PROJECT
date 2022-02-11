@@ -56,7 +56,8 @@
     </header>
 
     <?php
-
+    
+error_reporting(E_ALL ^ E_WARNING);
 require 'vendor/autoload.php';
 use \Mailjet\Resources;
 $mj = new \Mailjet\Client(getenv('MJ_APIKEY_PUBLIC'), getenv('MJ_APIKEY_PRIVATE'),true,['version' => 'v3']);
@@ -68,6 +69,7 @@ $body = [
   'Numero' => $_POST['num'],
   'Formation' => $_POST['formation']
 ];
+
 $response = $mj->post(Resources::$Contact, ['body' => $body]);
 $response->success() && var_dump($response->getData());
 ?>
