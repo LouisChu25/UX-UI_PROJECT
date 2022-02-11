@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  
+    <title>Formations Coding</title>
 	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZXHBCFXF79"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -16,8 +18,7 @@
 
   gtag('config', 'G-ZXHBCFXF79');
 </script>
-  
-    <title>Formations Coding</title>
+	
 </head>
 <body>
     <header>
