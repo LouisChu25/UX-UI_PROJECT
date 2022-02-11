@@ -9,7 +9,7 @@
   
     <title>Formations Coding</title>
 	
-		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZXHBCFXF79"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -18,7 +18,6 @@
 
   gtag('config', 'G-ZXHBCFXF79');
 </script>
-	
 	
 	<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -55,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <input type="text" placeholder="Numéro de téléphone" name="num">
                 <select name="formation">
                     <option value="" disabled selected>Choisir une formation</option>
-                    <option value="Web Coding Html / CSS">Web Coding Html / CSS</option>
+                    <option value="Html / CSS">Web Coding Html / CSS</option>
                     <option value="Python Algoritmhie">Pyhton Algorithmie</option>
                     <option value="C# Unity">C# Unity</option>
                 </select>
@@ -65,23 +64,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </header>
 
     <?php
-
-require 'vendor/autoload.php';
-use \Mailjet\Resources;
-$mj = new \Mailjet\Client(getenv('2df14aed99dc2e5543b7e12e46a99d25'), getenv('f147ea008054fa7a08333bc0d5dd5c22'),true,['version' => 'v3']);
-$body = [
-  'IsExcludedFromCampaigns' => "false",
-  'nom' => $_POST['nom'],
-  'Prenom' => $_POST['prenom'],
-  'mail' => $_POST['mail'],
-  'Numero' => $_POST['num'],
-  'Formation' => $_POST['formation']
-];
-$response = $mj->post(Resources::$Contact, ['body' => $body]);
-$response->success() && var_dump($response->getData());
-
-?>
     
+// error_reporting(E_ALL ^ E_WARNING);
+// require 'vendor/autoload.php';
+// use \Mailjet\Resources;
+// $mj = new \Mailjet\Client(getenv('2df14aed99dc2e5543b7e12e46a99d25'), getenv('f147ea008054fa7a08333bc0d5dd5c22'),true,['version' => 'v3']);
+// $body = [
+//   'IsExcludedFromCampaigns' => "true",
+//   'Name' => $_POST['nom'],
+//   'Prenom' => $_POST['prenom'],
+//   'Email' => $_POST['mail'],
+//   'Numero' => $_POST['num'],
+//   'Formation' => $_POST['formation']
+// ];
+
+// $response = $mj->post(Resources::$Contact, ['body' => $body]);
+// $response->success() && var_dump($response->getData());
+?>
    
     
     <section>
@@ -162,6 +161,19 @@ $response->success() && var_dump($response->getData());
         <p>Admissions : 01 81 00 30 33</p>
         <p>admissions@iim.fr</p>
     </footer>
+	
+	<script>
+window.axeptioSettings = {
+  clientId: "62062ea06be0f54d55d66b79",
+};
+ 
+(function(d, s) {
+  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+  e.async = true; e.src = "//static.axept.io/sdk.js";
+  t.parentNode.insertBefore(e, t);
+})(document, "script");
+</script>
+	
 <script src="script.js"></script>
 </body>
 </html>
