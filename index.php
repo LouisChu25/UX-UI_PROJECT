@@ -35,7 +35,7 @@
                 <input type="text" placeholder="Numéro de téléphone" name="num">
                 <select name="formation">
                     <option value="" disabled selected>Choisir une formation</option>
-                    <option value="Web Coding Html / CSS">Web Coding Html / CSS</option>
+                    <option value="Html / CSS">Web Coding Html / CSS</option>
                     <option value="Python Algoritmhie">Pyhton Algorithmie</option>
                     <option value="C# Unity">C# Unity</option>
                 </select>
