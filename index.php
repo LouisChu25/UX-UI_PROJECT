@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -70,15 +70,16 @@ require 'vendor/autoload.php';
 use \Mailjet\Resources;
 $mj = new \Mailjet\Client(getenv('2df14aed99dc2e5543b7e12e46a99d25'), getenv('f147ea008054fa7a08333bc0d5dd5c22'),true,['version' => 'v3']);
 $body = [
-  'IsExcludedFromCampaigns' => "true",
-  'Name' => $_POST['nom'],
+  'IsExcludedFromCampaigns' => "false",
+  'nom' => $_POST['nom'],
   'Prenom' => $_POST['prenom'],
-  'Email' => $_POST['mail'],
+  'mail' => $_POST['mail'],
   'Numero' => $_POST['num'],
   'Formation' => $_POST['formation']
 ];
 $response = $mj->post(Resources::$Contact, ['body' => $body]);
 $response->success() && var_dump($response->getData());
+
 ?>
     
    
